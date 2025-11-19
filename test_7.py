@@ -9,7 +9,6 @@ def vowel_letters(string):
             continue
     return f
 
-
 def test_vowel_letters_success():
     my_string = 'Hello!'
     assert vowel_letters(my_string)
