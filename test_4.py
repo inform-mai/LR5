@@ -1,6 +1,5 @@
 from random import *
 
-
 def choice_sorting(a):
     for i in range(len(a)):
         mn_ind = i

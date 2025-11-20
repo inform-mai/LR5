@@ -13,7 +13,6 @@ def test_vowel_letters_success():
     my_string = 'Hello!'
     assert vowel_letters(my_string)
 
-
 def test_vowel_letters_failure():
     my_string = 'Br Br Ptpm'
     assert vowel_letters(my_string)

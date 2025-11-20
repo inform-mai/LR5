@@ -1,7 +1,6 @@
 # Сравнение количества простых чисел 1 и другого списка
 from random import *
 
-
 def count_prime_numbers(my_list):
     cnt_prime = 0
     for i in my_list:
@@ -12,7 +11,6 @@ def count_prime_numbers(my_list):
         if cnt_del == 0:
             cnt_prime += 1
     return cnt_prime
-
 
 def test_compare_lists():
     list_1 = [randint(-10 ** 6, 10 ** 6) for _ in range(20)]
